@@ -22,10 +22,10 @@ git clone https://github.com/ViviQuan/deep-explainer ~/.claude/skills/deep-expla
 ## 快速使用
 
 ```
-/explain https://arxiv.org/abs/2401.xxxxx
-/explain https://github.com/user/repo
-/explain /path/to/paper.pdf
-/explain /path/to/paper.pdf --with-code https://github.com/user/repo
+/deep-explainer https://arxiv.org/abs/2401.xxxxx
+/deep-explainer https://github.com/user/repo
+/deep-explainer /path/to/paper.pdf
+/deep-explainer /path/to/paper.pdf --with-code https://github.com/user/repo
 ```
 
 自动检测输入类型，通过 CLI 工具提取内容（pdftotext / pymupdf / pdfplumber 级联回退，兼容任意模型），深度分析后生成一个自包含 HTML 文件。

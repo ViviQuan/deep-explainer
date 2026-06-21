@@ -23,10 +23,10 @@ git clone https://github.com/ViviQuan/deep-explainer ~/.claude/skills/deep-expla
 ## Quick Start
 
 ```
-/explain https://arxiv.org/abs/2401.xxxxx
-/explain https://github.com/user/repo
-/explain /path/to/paper.pdf
-/explain /path/to/paper.pdf --with-code https://github.com/user/repo
+/deep-explainer https://arxiv.org/abs/2401.xxxxx
+/deep-explainer https://github.com/user/repo
+/deep-explainer /path/to/paper.pdf
+/deep-explainer /path/to/paper.pdf --with-code https://github.com/user/repo
 ```
 
 The skill auto-detects input type, extracts content via CLI tools (pdftotext,
