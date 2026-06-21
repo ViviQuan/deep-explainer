@@ -8,10 +8,14 @@
 **安装：**
 
 ```bash
-claude skill add deep-explainer
+npx skills add ViviQuan/deep-explainer
 ```
 
-或直接克隆到 `~/.claude/skills/deep-explainer/`。
+或手动克隆：
+
+```bash
+git clone https://github.com/ViviQuan/deep-explainer ~/.claude/skills/deep-explainer
+```
 
 **English:** [README.md](README.md)
 

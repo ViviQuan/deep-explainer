@@ -9,10 +9,14 @@
 **Install:**
 
 ```bash
-claude skill add deep-explainer
+npx skills add ViviQuan/deep-explainer
 ```
 
-Or clone into `~/.claude/skills/deep-explainer/`.
+Or manually:
+
+```bash
+git clone https://github.com/ViviQuan/deep-explainer ~/.claude/skills/deep-explainer
+```
 
 **中文文档:** [README.zh-CN.md](README.zh-CN.md)
 
